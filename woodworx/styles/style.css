@@ -308,3 +308,122 @@ footer p a:hover {
     width: 100%;
     height: 1000px;
 }
+
+.worx-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.idea {
+    background-color: #b58a58;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.idea h2 {
+    color: #FEFAE0;
+    font-family: 'Sriracha', 'Arial Black', 'Impact';
+}
+
+.idea p {
+    color: #FEFAE0;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+.light-bulb {
+    grid-column: 7/10;
+    grid-row: 1/2;
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.design {
+    background-color: #b58a58;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 4/5;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.design h2 {
+    color: #FEFAE0;
+    font-family: 'Sriracha', 'Arial Black', 'Impact';
+}
+
+.design p {
+    color: #FEFAE0;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+.piece {
+    background-color: #b58a58;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/10;
+    grid-row: 4/5;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.piece h2 {
+    color: #FEFAE0;
+    font-family: 'Sriracha', 'Arial Black', 'Impact';
+}
+
+.piece p {
+    color: #FEFAE0;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+.creativity {
+    grid-column: 1/11;
+    grid-row: 5/6;
+    width: 100%
+}
+
+.information {
+    background-color: #b58a58;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 8/9;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.information h2 {
+    color: #FEFAE0;
+    font-family: 'Sriracha', 'Arial Black', 'Impact';
+}
+
+.information p {
+    color: #FEFAE0;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+.honest {
+    background-color: #b58a58;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/10;
+    grid-row: 8/9;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.honest h2 {
+    color: #FEFAE0;
+    font-family: 'Sriracha', 'Arial Black', 'Impact';
+}
+
+.honest p {
+    color: #FEFAE0;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
