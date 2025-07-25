@@ -337,8 +337,8 @@ footer p a:hover {
 .light-bulb {
     grid-column: 7/10;
     grid-row: 1/2;
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     box-shadow: 5px 5px 10px #023047;
 }
 
